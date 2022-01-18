@@ -57,9 +57,7 @@
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>
-    <element path="D:\Games\Steam\steamapps\common\GemCraft Frostborn Wrath\Mods\BezelModLoader.swc" />
-    <element path="D:\Games\Steam\steamapps\common\GemCraft Frostborn Wrath\GemCraft Frostborn Wrath.swc" />
-    <element path="D:\Games\Steam\steamapps\common\GemCraft Chasing Shadows\gc-cs-steam.swc" />
+    <element path="C:\Program Files (x86)\Steam\steamapps\common\GemCraft Frostborn Wrath\Mods\BezelModLoader.swc" />
   </externalLibraryPaths>
   <!-- Runtime Shared Libraries -->
   <rslPaths>

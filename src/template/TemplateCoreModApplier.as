@@ -40,7 +40,8 @@ package template
 				return;
 			}
 
-			// Finally, add or edit your line. Because we're replacing a line, we use the offset - 1 as our location, and 1 to indicate the number of lines we replace
+			// Finally, add or edit your line. Because we're replacing a line, we use the offset - 1 as our location, and 1 to indicate the number of lines we replace.
+			// In order to add one or more lines without removing the original, just use 0 for replaceLines.
 			lattice.patchFile(filename, offset - 1, 1, "pushstring \"TAKEN OVER\"");
 		}
 	}
