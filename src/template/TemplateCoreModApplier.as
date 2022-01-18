@@ -26,9 +26,11 @@ package template
 		
 		private static function installTemplateCoremod(lattice:Lattice, baseGame:String):void
 		{
-			// First, decide which file you need to edit. Classes' files are named <package>.<class name>.class.asasm
+			// First, decide which file you need to edit. Classes' files are named <package>.<class name>.class.asasm.
 			var filename:String = "com/giab/games/" + baseGame + "/scr/ScrMainMenu.class.asasm";
-			// Then find the line that you need to edit. This is done through searching for snippets around where you want to edit
+			// Then find the line that you need to edit. This is done through searching for snippets around where you want to edit.
+			// Note that JPEXS, while useful, sometimes uses slightly different syntax than Bezel. A way to browse the assembly as Bezel sees
+			// it is provided in the README.
 			// Note that for some edits, the same line might appear twice. This is fine, it just means that you need to add more context
 			// so that you don't edit the wrong location
 			var offset:int = lattice.findPattern(filename, /pushstring \"Start Game\"/);
