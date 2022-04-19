@@ -18,9 +18,9 @@ package template
 		public function get MOD_NAME():String { return "TemplateCoreMod"; }
 		// Version of Bezel this mod was built for.
 		// Bezel will not load mods that were built for a different major version (first number) or a newer minor version (second number) than was installed!
-		public function get BEZEL_VERSION():String { return "1.0.0"; }
+		public function get BEZEL_VERSION():String { return "2.0.1"; }
 		// Version of the mod.
-		public function get VERSION():String { return "0.0.1"; }
+		public function get VERSION():String { return "0.0.2"; }
 		// Because applying coremods takes a long time, there is a separate field for coremod version. This allows changing normal mod logic in an update
 		// without editing the coremod, skipping having to reapply this coremod
 		public function get COREMOD_VERSION():String { return TemplateCoreModApplier.VERSION; }
