@@ -1,0 +1,34 @@
+{
+	"compilerOptions": {
+		"source-path": [
+			"src"
+		],
+		"output": "bin/TemplateBezelCoreMod.swf",
+		"default-frame-rate": 30,
+		"default-background-color": "#FFFFFF",
+		"default-size": {
+			"width": 800,
+			"height": 600
+		},
+		"target-player": "17.0",
+		"advanced-telemetry": false,
+		"optimize": true,
+		"omit-trace-statements": true,
+		"strict": true,
+		"use-network": true,
+		"warnings": true,
+		"verbose-stacktraces": false,
+		"external-library-path": [
+			"${BezelLibs}/BezelModLoader.swc",
+			"${BezelLibs}/GemCraft.Frostborn.Wrath.swc",
+			"${BezelLibs}/gc-cs-steam.swc",
+			"${BezelLibs}/FRESteamWorks.swc",
+			"${BezelLibs}/ANEBytecodeEditor.swc"
+		]
+	},
+	"files": [
+		"src/template/TemplateCoreMod.as"
+	],
+	"config": "air",
+	"type": "app"
+}

@@ -2,8 +2,6 @@ package template
 {
 	import Bezel.Bezel;
 	import Bezel.BezelCoreMod;
-	import Bezel.Events.EventTypes;
-	import Bezel.Events.IngameNewSceneEvent;
 	import Bezel.Lattice.Lattice;
 	import Bezel.Logger;
 	import flash.display.MovieClip;
